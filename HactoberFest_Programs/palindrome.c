@@ -4,11 +4,9 @@ int main(){
 	int i=0,j,len;
 	printf("\nEnter the string: ");
 	gets(str);
-	while(str[i]!='\0'){
-		i++;
+	while(str[len]!='\0'){
+		len++;
 	}
-	len=i;
-	i=0;
 	j=len-1;
 	while(i<=len/2){
 		if(str[i]==str[j]){
